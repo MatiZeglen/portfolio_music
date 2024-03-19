@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+i{
+    color: #fff;
+    cursor: pointer;
+}
+
+img{
+    object-fit: cover;
+    object-position: top;
+    border-radius: 8px;
+}
+
+html,
+body{
+    background: linear-gradient(#050505, #18181d);
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+    background: linear-gradient(#050505, #18181d);;
+}
+.container .sidebar
+{
+    height: 100vh;
+    background-color: #18181d;
+    padding: 20px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 10000;
+    transition: all 0.6s ease ;
+}
+.container .sidebar .logo
+{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.container .sidebar .logo a
+{
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.container .sidebar .logo:hover a, .container .sidebar .logo:hover i
+{
+    color: #5773ff;
+}
+.container .sidebar menu h5
+{
+    color: #919191;
+}
+.container .sidebar .logo > i
+{
+    font-size: 24px;
+    transition: all 0.3s ease;
+}
+.container .sidebar .playing .top img
+{
+    width: 20px;
+}
