@@ -57,7 +57,7 @@ body{
     font-weight: bold;
     transition: all 0.3s ease;
 }
-.container .sidebar .logo:hover a, .container .sidebar .logo:hover i
+.container .sidebar .logo:hover a, .container .sidebar .logo:hover i, .container .sidebar .menu ul li:hover a, .container .sidebar .menu ul li:hover i
 {
     color: #5773ff;
 }
