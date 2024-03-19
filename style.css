@@ -162,3 +162,8 @@ body{
     outline: none;
     color: #fff;
 }
+.container main .trending img
+{
+    width: 300px;
+    height: 200px;
+}
