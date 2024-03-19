@@ -226,6 +226,39 @@ body{
     display: flex;
     gap: 20px;
 }
+.container main .playlist .genres
+{
+    color: #fff;
+    background-color: #202026;
+    padding: 20px;
+    border-radius: 6px;
+    width: 40%;
+}
+.container main .playlist .genres header, .container main .playlist .music-list .header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.container main .playlist .genres .header a, .container main .playlist .music-list .header a
+{
+    color: #919191;
+    font-size: 12px;
+}
+.container main .playlist .genres .items
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.container main .playlist .genres .items .item
+{
+    padding: 22px 10px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
 .container main .playlist .music-list .items .item .info img
 {
     width: 50px;
