@@ -205,6 +205,7 @@ body{
     border-radius: 14px;
     color: #fff;
     font-weight: bold;
+    cursor: pointer;
 }
 .container main .trending .left .info .buttons i
 {
