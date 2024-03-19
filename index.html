@@ -103,6 +103,9 @@
         <main>
             <header>
                 <nav class="nav-links">
+                    <button class="menu-btn" id="menu-open">
+                        <i class='bx bx-menu'></i>
+                    </button>
                     <a href="#"><i class='bx bx-music'></i>Music</a>
                     <a href="#"><i class='bx bx-broadcast'></i>Live</a>
                     <a href="#"><i class='bx bx-podcast'></i>Podcast</a>
@@ -110,69 +113,125 @@
                 <div class="search"><i class='bx bx-search-alt'></i><input type="text" placeholder="Search here...">
                 </div>
             </header>
-        <div class="trending">
-            <div class="left">
-                <h5>Trending New Song</h5>
-                <div class="info">
-                    <h2> █▬█ █ ▀█▀ MIXTAPE DO JAZDY SOLARISEM OD ŁUBOWIEC PĘTLA DO CHRZANÓW DWORZEC ZKKM *EDYCJA OSTATECZNA*</h2>
+            <div class="trending">
+                <div class="left">
+                    <h5>Trending New Song</h5>
+                    <div class="info">
+                        <h2> █▬█ █ ▀█▀ MIXTAPE DO JAZDY SOLARISEM OD ŁUBOWIEC PĘTLA DO CHRZANÓW DWORZEC ZKKM *EDYCJA OSTATECZNA*</h2>
                     <h4> Gavarys</h4>
                     <h5> 78 Million Plays</h5>
-                    <div class="buttons">
-                        <button>Listen Now</button>
-                        <i class='bx bxs-heart-circle'></i>
+                        <div class="buttons">
+                            <button>Listen Now</button>
+                            <i class='bx bxs-heart'></i>
+                        </div>
                     </div>
                 </div>
+                <img src="images/gavarys miniaturka.png">
             </div>
-            <img src="images/gavarys miniaturka.png">
-        </div>
-        <div class="playlist">
-            <div class="genres">
-                <header class="header">
-                    <h5>Genres</h5>
-                    <a href="#">See all</a>
-                </header>
-                <div class="items">
-                    <div class="item">
-                        <p>Mixtape<br>Car Music</p>
+
+            <div class="playlist">
+                <div class="genres">
+                    <div class="header">
+                        <h5>Genres</h5>
+                        <a href="#">See all</a>
+                    </div>
+
+                    <div class="items">
+                        <div class="item">
+                            <p>Mixtape</p>
+                        </div>
+                        <div class="item">
+                            <p>PKM Jaworzno</p>
+                        </div> 
+                        <div class="item">
+                            <p>ZKKM Chrzanów</p>
+                        </div>
+                        <div class="item">
+                            <p>X-Mas Mixtapes</p>
+                        </div>
+                        <div class="item">
+                            <p>Car Music</p>
+                        </div>
+                        <div class="item">
+                            <p>Other</p>
+                        </div>
                     </div>
                 </div>
-                <div class="items">
-                    <div class="item">
-                        <p>PKM Jaworzno<br>ZKKM Chrzanów</p>
+                <div class="music-list">
+                    <div class="header">
+                        <h5>Top Songs</h5>
+                        <a href="#">See all</a>
                     </div>
-                </div>
-                <div class="items">
-                    <div class="item">
-                        <p>X-mas Mixtapes<br>Other Bus Mixtapes</p>
-                    </div>
-            </div>       
-         </div>
-            <div class="music-list">
-                <header class="header">
-                    <h5>Top Songs</h5>
-                    <a href="#">See All</a>
-                </header>
-                <div class="items">
-                    <div class="item">
-                        <div class="info">
-                            <p>01</p>
-                            <img src="images/gavarys miniaturka2.png" alt="">
-                            <div class="details">
-                                <h5>▬█ █ ▀█▀ MIXTAPE DO JAZDY SOLARISEM PO JAWORZNICKICH OSIEDLACH **KANARY SAME WYCHODZĄ Z AUTOBUSU**</h5>
+                    <div class="items">
+                        <div class="item">
+                            <div class="info">
+                                <p>01</p>
+                                <img src="images/gavarys miniaturka2.png">
+                                <div class="details">
+                                    <h5>█▬█ █ ▀█▀ MIXTAPE DO JAZDY SOLARISEM PO JAWORZNICKICH OSIEDLACH **KANARY SAME WYCHODZĄ Z AUTOBUSU**</h5>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <p>03:59</p>
+                                <div class="icon">
+                                    <i class='bx bxs-right-arrow'></i>
+                                </div>
+                                <i class='bx bxs-plus-square'></i>
                             </div>
                         </div>
-                    </div>
-                    <div class="actions">
-                        <p>03:59</p>
-                        <div class="icon">
-                            <i class='bx bxs-caret-right-circle'></i>
+                        <div class="item">
+                            <div class="info">
+                                <p>02</p>
+                                <img src="images/gavarys miniaturka3.png">
+                                <div class="details">
+                                    <h5>█▬█ █ ▀█▀ MIXTAPE DO NOCNEJ JAZDY SOLARISEM PO JAWORZNICKICH OSIEDLACH VOL 2</h5>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <p>04:35</p>
+                                <div class="icon">
+                                    <i class='bx bxs-right-arrow'></i>
+                                </div>
+                                <i class='bx bxs-plus-square'></i>
+                            </div>
                         </div>
-                        <i class='bx bxs-plus-circle'></i>
+                        <div class="item">
+                            <div class="info">
+                                <p>03</p>
+                                <img src="images/gavarys miniaturka4.png">
+                                <div class="details">
+                                    <h5>█▬█ █ ▀█▀ MIXTAPE DO JAZDY AUTOSANEM LIDER 10 *SILNIK CHODZI TAK GLOSNO ZE ZA CHWILE CZACHA PEKNIE*</h5>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <p>04:22</p>
+                                <div class="icon">
+                                    <i class='bx bxs-right-arrow'></i>
+                                </div>
+                                <i class='bx bxs-plus-square'></i>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="info">
+                                <p>04</p>
+                                <img src="images/gavarys miniaturka5.png">
+                                <div class="details">
+                                    <h5>█▬█ █ ▀█▀ MUZA DO DUDNIENIA ZAPCHANA 15 ZKKM CHRZANOW **JEST TAK ZAPCHANA ZE AZ CIEZKO ODDYCHAC**</h5>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <p>03:17</p>
+                                <div class="icon">
+                                    <i class='bx bxs-right-arrow'></i>
+                                </div>
+                                <i class='bx bxs-plus-square'></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-    </main>
+    </main> <!-- zamkniecie maina od navlinkow-->
             <section class="right-section">
 
             </section>
