@@ -143,3 +143,22 @@ body{
     color: #919191;
     transition: all 0.3s ease;
 }
+.container main header .search
+{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 70%;
+    background-color: #1d1d1d;
+    border: 1px solid #464748;
+    padding: 10px;
+    border-radius: 8px;
+}
+.container main header .search input
+{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
