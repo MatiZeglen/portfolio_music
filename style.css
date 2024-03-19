@@ -215,9 +215,18 @@ body{
     padding: 10px;
     border-radius: 50%;
 }
-
 .container main .trending img
 {
     width: 300px;
     height: 200px;
+}
+.container main .playlist
+{
+    margin-top: 14px;
+    display: flex;
+    gap: 20px;
+}
+.container main .playlist .music-list .items .item .info img
+{
+    width: 50px;
 }
