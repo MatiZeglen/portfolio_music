@@ -425,5 +425,59 @@ body{
 }
 .container .right-section .music-player .song-info img
 {
-    
+    width: 280px;
+    height: 220px;
+}
+.container .right-section .music-player .description h3
+{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.container .right-section .music-player .description h5
+{
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+.container .right-section .music-player .description p
+{
+    color: #919191;
+    font-size: 12px;
+    font-weight: bold;
+}
+.container .right-section .music-player .song-info .progress
+{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.container .right-section .music-player .song-info .progress p
+{
+    font-size: 11px;
+}
+.container .right-section .music-player .song-info .progress .active-line
+{
+    position: relative;
+    width: 120px;
+    height: 2px;
+    background-color: #fff;
+    margin-left: 30px;
+}
+.container .right-section .music-player .song-info .progress .deactive-line
+{
+    width: 80px;
+    height: 2px;
+    background-color: #919191;
+    margin-right: 30px;
+}
+.container .right-section .music-player .song-info .progress .active-line::before
+{
+    content: "";
+    background-color: #25252d;
+    height: 10px;
+    width: 10px;
+    border: 2px solid #fff;
+    position: absolute;
+    top: -6px;
+    left: 120px;
 }
