@@ -480,4 +480,41 @@ body{
     position: absolute;
     top: -6px;
     left: 120px;
+    border-radius: 50%;
+}
+.container .right-section .music-player .player-actions
+{
+    background-color: #5773ff;
+    height: 26%;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.container .right-section .music-player .player-actions .buttons
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 24px;
+}
+.container .right-section .music-player .player-actions .buttons i
+{
+    font-size: 20px;
+}
+.container .right-section .music-player .player-actions .buttons .play-button
+{
+    padding: 16px;
+    background-color: #fff;
+    color: #5773ff;
+    border-radius: 18px;
+}
+.container .right-section .music-player .player-actions .lyrics
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 8px;
 }
